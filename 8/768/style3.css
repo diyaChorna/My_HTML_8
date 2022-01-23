@@ -1,0 +1,294 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+.block{
+      width: 50%;
+      height: 1377px;
+      font-family: 'Montserrat', sans-serif;
+}
+.Seffix ,.Seffix2{
+      width: 100%;
+      height: 34px;
+      display: flex;
+}
+.SeffixLeft, .SeffixCenter, .SeffixRight{
+      height: 100%;
+      display: flex;
+      align-items: center;
+}
+.SeffixLeft{
+      width: 40.5%;
+      padding-left: 3%;
+      font-size: 20px;
+}
+.SeffixCenter{
+      width: 12%;
+      font-size: 14px;
+      font-weight: 610;
+}
+.SeffixRight{
+      width: 47%;
+      font-size: 14px;
+      font-weight: 500;
+}
+.atVero{
+      width: 100%;
+      height: 178px;
+      background-color: black;
+      display: flex;
+      color: white;
+}
+.atVeroImg, .atVeroText{
+      width: 50%;
+      height: 100%;
+}
+.atVeroImg img{
+      width: 100%;
+      height: 100%;
+}
+.dataLifeStyle{
+      width: 100%;
+      height: 25%;
+      display: flex;
+}
+.data, .lifestyle,.dataLifeStyleEos, .odio{
+      height: 100%;
+      font-weight: 600;
+      display: flex;
+      align-items: flex-end;
+}
+.data{
+      width: 34%;
+      justify-content: flex-end;
+      font-size: 7px;
+}
+.lifestyle{
+      width: 66%;
+      padding-left: 40%;
+      color: rgba(240, 248, 255, 0);
+}
+.dataLifeStyleEos, .odio{
+      padding-left: 6%;
+}
+.dataLifeStyleEos{
+      width: 100%;
+      height: 14%;
+      font-size: 9px;
+}
+.odio{
+      width: 100%;
+      height: 20%;
+      font-size: 6px;
+      font-weight: 300;
+}
+.readMore{
+      width: 100%;
+      height: 40%;
+      padding-left: 6%;
+      padding-top: 7.5%;
+}
+.readMoreBox{
+      width: 56%;
+      height: 40%;
+      border: 1px solid white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 5px;
+      font-weight: 600;
+}
+.featured{
+      width: 100%;
+      height: 53px;
+      font-weight: 600;
+      padding-left: 3%;
+      padding-top: 8%;
+      font-size: 9px;
+}
+.blockBorder{
+      width: 100%;
+      height: 1031.5px;
+      display: flex;
+      justify-content: center;
+}
+.blockSmall{
+      width: 93.4%;
+      height: 100%;
+}
+.blockTwo{
+      width: 100%;
+      height: 229px;
+      display: flex;
+}
+.twoLeft{
+      width: 51%;
+      height: 100%;
+}
+.twoLeft img, .twoRight img{
+      width: 95%;
+      height: 50%;
+}
+.twoRight{
+      width: 49%;
+      height: 100%;
+}
+.twoRight img{
+      width: 100%;
+}
+.twoDataLifeStyle, .threeDataLifeStyle{
+      width: 100%;
+      height: 6%;
+      display: flex;
+}
+.twoData, .twoLifestyle,.twoDataLifeStyleEos, .twoOdio{
+      height: 100%;
+      font-weight: 600;
+      display: flex;
+      align-items: flex-end;
+}
+.twoData, .threeData{
+      width: 32%;
+      justify-content: flex-end;
+      font-size: 7px;
+}
+.twoLifestyle{
+      width: 68%;
+      padding-left: 45%;
+      font-size:6px;
+}
+.twoDataLifeStyleEos, .twoOdio, .blockThree, .threeDataLifeStyleEos, .threeOdio, .buttonSeeAll, .blockFour, .fourIssue, .interviews, .news{
+      width: 100%;
+}
+.twoDataLifeStyleEos{
+      height: 15.5%;
+      font-size: 8px;
+}
+.twoOdio, .threeOdio{
+      height: 18%;
+      font-size: 7px;
+      font-weight: 300;
+}
+.blockThree, .blockFive, .blockSix{
+      height: 147.5px;
+      display: flex;
+}
+.threeLeft, .threeCenter, .threeRight,.blockBlack{
+      height: 100%;
+}
+.threeLeft img, .threeCenter img, .threeRight img{
+      width: 90%;
+      height: 48%;
+}
+.threeRight img{
+      width: 99%;
+}
+.threeLeft, .threeCenter{
+      width: 34%;
+}
+.threeRight{
+      width: 32%;
+}
+.threeDataLifeStyle{
+      height: 11%;
+}
+.threeData, .threeLifestyle,.threeDataLifeStyleEos, .threeOdio{
+      height: 100%;
+      font-weight: 600;
+      display: flex;
+      align-items: flex-end;
+}
+.threeData{
+      width: 48%;
+}
+.threeLifestyle{
+      width: 15%;
+      padding-left: 10%;
+      font-size: 7px;
+}
+.threeDataLifeStyleEos{
+      height: 20%;
+      font-size: 7px;
+}
+.buttonSeeAll{
+      height: 50px;
+}
+.buttonSeeAll, .buttonSeeAll2, .fourIssue, .fourSubscribe, .butttonSubscribe{
+      display: flex;
+      justify-content: center;
+}
+.seeAll, .seeAll2{
+      width: 34%;
+      height: 38%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      background-color: black;
+      font-size: 7px;
+}
+.blockFour{
+      height: 140px;
+      display: flex;
+}
+.fourLeft, .fourRight{
+      width: 50%;
+      height: 100%;
+      background-color: black;
+}
+.fourLeft img{
+      width: 100%;
+      height: 100%;
+}
+.fourIssue{
+      height: 42%;
+      font-size: 8px;
+      font-weight: 600;
+}
+.fourSubscribe{
+      height: 25%;
+}
+.fourIssue, .fourSubscribe{
+      align-items: flex-end;
+      color: white;
+}
+.butttonSubscribe{
+      width: 55%;
+      height: 55%;
+      background-color: black;
+      align-items: center;
+      border: 1px solid white;
+      font-size: 6px;
+}
+.interviews{
+      height: 54px;
+      padding-top: 7%;
+      font-size: 7.5px;
+}
+.blockFive, .blockSix{
+      height: 147px;
+}
+.buttonSeeAll2{
+      height: 40px;
+}
+.seeAll2{
+      height: 45%;
+}
+.news{
+      height:24px;
+      font-size: 8px;
+}
+.blockSix{
+      height: 144px;
+}
+.blockBlack{
+      width: 100%;
+      height: 80px;
+}
+.Seffix2{
+      background-color: black;
+      color: white;
+      font-size: 20px;
+      height: 80px;
+}
